@@ -16,11 +16,11 @@
   -->
 
 <resources>
-    <string name="dialog_title">This app uses cookies</string>
-    <string name="dialog_text">Using it, you consent to the use of cookies in accordance with the terms of our %1$s.</string>
+    <string name="dialog_title">This app uses identifiers</string>
+    <string name="dialog_text">Using it, you consent to the use of device identifiers in accordance with the terms of our %1$s.</string>
     <string name="privacy_policy">privacy policy</string>
-    <string name="exit_button_text">Exit App</string>
-    <string name="continue_button_text">Continue</string>
+    <string name="exit_button_text">Exit</string>
+    <string name="continue_button_text">Accept</string>
 
     <string name="html_link" translatable="false">&lt;a href=\'%1$s\'>%2$s&lt;/a></string>
 </resources>

@@ -16,9 +16,9 @@
   -->
 
 <resources>
-    <string name="dialog_title">Esta aplicación usa cookies</string>
-    <string name="dialog_text">Al utilizarla, usted acepta el uso de cookies deacuerdo a los terminos de nuestra %1$s.</string>
-    <string name="privacy_policy">política de provacidad</string>
+    <string name="dialog_title">Esta aplicación usa identificadores</string>
+    <string name="dialog_text">Al utilizarla, usted acepta el uso de identificadores de dispositivo de acuerdo a los términos de nuestra %1$s.</string>
+    <string name="privacy_policy">política de privacidad</string>
     <string name="exit_button_text">Salir</string>
-    <string name="continue_button_text">Continuar</string>
+    <string name="continue_button_text">Aceptar</string>
 </resources>

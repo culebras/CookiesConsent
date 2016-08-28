@@ -27,7 +27,6 @@ package com.github.carlosph.cookiesconsent;
 import android.content.Context;
 import android.telephony.TelephonyManager;
 import android.util.Log;
-
 import java.util.TimeZone;
 
 public class EuropeanUserChecker {
@@ -87,15 +86,13 @@ public class EuropeanUserChecker {
         }
 
 
-        if (error == true) {
+        if (error) {
             Log.v(TAG, "is EU User (err)");
             return true;
         }
 
         return false;
     }
-
-    ;
 
     private enum EUCountry {
         AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IE, IT, LV, LT, LU, MT, NL, PL, PT, RO, SK, SI, ES, SE, GB, //28 member states
@@ -109,6 +106,6 @@ public class EuropeanUserChecker {
                     return true;
             return false;
         }
-
     }
+
 }

@@ -65,6 +65,7 @@ public abstract class CookiesConsentAlert {
     }
 
     public interface CookiesConsentListener {
-        public void onCookiesAllowed();
+        void onCookiesAllowed();
     }
+
 }

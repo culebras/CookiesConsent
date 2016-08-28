@@ -67,4 +67,5 @@ public class CookiesConsentDialog extends CookiesConsentAlert {
 
         ((TextView) dialog.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
     }
+
 }
